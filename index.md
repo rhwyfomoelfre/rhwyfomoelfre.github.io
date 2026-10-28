@@ -11,7 +11,7 @@ title: Home
 <script src="{{ '/assets/js/slider.js' | relative_url }}" defer></script>
 <section class="intro">
   <div class="shell intro-grid">
-    <div><div class="section-label">A club for everyone</div><h2>Sea air, good company, strong boats.</h2></div>
+    <div><div class="section-label">A club for everyone</div><h2>Sea air, good company, cool trips.</h2></div>
     <div><p>Moelfre Rowing Club was established in 2005 to give local people of all ages the opportunity to participate in water-based activities and enjoy healthy, sociable time outdoors.</p><p>We row throughout the year, usually on Sunday mornings and Tuesday evenings. Whether you are curious about coastal rowing, looking for a new challenge, or already have race-day ambitions, you will find a friendly welcome here.</p><a href="{{ '/about/' | relative_url }}">Read about the club &rarr;</a></div>
   </div>
 </section>
