@@ -12,5 +12,5 @@ permalink: /boats/
 <article class="card"><h3>Joseph Rodgers</h3><p>Our first Celtic longboat, named for a hero of the Royal Charter wreck.</p><a href="{{ '/boats/joseph-rodgers/' | relative_url }}">Read about Joseph Rodgers &rarr;</a></article>
 </div>
 <h2>More boat resources</h2><p><a href="{{ '/boats/celtic-longboats/' | relative_url }}">The history of Celtic longboats</a> and <a href="{{ '/boats/literace/' | relative_url }}">our LiteRace single sculls</a>.</p>
-<h2>Celtic longboats</h2><p>Our longboats are stable, seaworthy boats that make coastal rowing accessible and sociable. They can carry a full crew and are equally at home on a training outing, a day trip, or a race start.</p>
+<h2>Celtic longboats</h2><p>Our longboats are stable, seaworthy boats that make coastal rowing accessible and sociable. They can carry a full crew and are equally at home on a training outing, a day trip, or a race start.</p><img class="boat-photo" src="{{ '/assets/images/Celtics.jpg' | relative_url }}" alt="Celtic longboats">
 </article><aside class="sidebar"><h2>On this site</h2><a href="{{ '/training/' | relative_url }}">Training for rowing</a><a href="{{ '/safety/' | relative_url }}">Safety information</a><a href="{{ '/navigation/' | relative_url }}">Coastal navigation</a></aside></div>
