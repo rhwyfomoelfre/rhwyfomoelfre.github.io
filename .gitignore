@@ -3,3 +3,5 @@ vendor/
 .bundle/
 .DS_Store
 MoelfreWS/
+tools/*.csv
+tools/*.gs
