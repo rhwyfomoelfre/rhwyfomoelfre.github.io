@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Anglesey tidal streams
+title: Ynys Môn tidal streams
 permalink: /navigation/tidal-streams/
 ---
 <div class="page-hero"><div class="shell"><div class="eyebrow">Navigation resource</div><h1>Anglesey tidal streams</h1></div></div>

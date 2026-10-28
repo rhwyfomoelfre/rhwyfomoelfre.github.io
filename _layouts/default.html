@@ -10,7 +10,8 @@
   <body>
     <a class="skip-link" href="#main-content">Skip to content</a>
     {% include header.html %}
-    <main id="main-content">{{ content }}</main>
+    {% assign translated_content = content | replace: 'Anglesey', 'Ynys Môn' | replace: 'Ynys Môn.pdf', 'Anglesey.pdf' | replace: 'href="/navigation/"', 'href="/navigation/introduction/"' | replace: '<a href="/navigation/introduction/">Navigation overview</a>', '' %}
+    <main id="main-content">{{ translated_content }}</main>
     {% include footer.html %}
   </body>
 </html>

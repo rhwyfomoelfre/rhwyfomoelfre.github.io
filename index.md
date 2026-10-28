@@ -2,16 +2,13 @@
 layout: default
 title: Home
 ---
-<section class="hero">
-  <img class="hero-image" src="{{ '/assets/images/MoelfreSlider1.jpg' | relative_url }}" alt="Coastal rowing on the sea">
-  <div class="hero-content">
-    <div class="eyebrow">Clwb Rhwyfo Moelfre</div>
-    <h1>Join us on the water.</h1>
-    <p>Friendly coastal rowing from Traeth Bychan, on the beautiful east coast of Anglesey.</p>
-    <a class="button" href="{{ '/join/' | relative_url }}">Try a taster row</a>
-    <a class="button secondary" href="{{ '/about/' | relative_url }}">Meet the club</a>
-  </div>
+<section class="hero slider" data-slider aria-label="Moelfre Rowing Club highlights">
+  <article class="hero-slide is-active" data-slide><img class="hero-image" src="{{ '/assets/images/MoelfreSlider1.jpg' | relative_url }}" alt="Coastal water around Moelfre"><div class="hero-content"><div class="eyebrow">Clwb Rhwyfo Moelfre</div><h1>Join us on the water</h1><p>Friendly coastal rowing from Traeth Bychan, on the beautiful east coast of Ynys Môn.</p><a class="button" href="{{ '/join/' | relative_url }}">Try a taster row</a><a class="button secondary" href="{{ '/about/' | relative_url }}">Meet the club</a></div></article>
+  <article class="hero-slide" data-slide aria-hidden="true"><img class="hero-image" src="{{ '/assets/images/slide_02.jpg' | relative_url }}" alt="A coastal rowing boat heading towards Anglesey"><div class="hero-content"><div class="eyebrow">Clwb Rhwyfo Moelfre</div><h1>Go on!</h1><p>Find your pace, learn the boat, and enjoy the coastline with a welcoming crew.</p><a class="button" href="{{ '/join/' | relative_url }}">Book a taster row</a></div></article>
+  <article class="hero-slide" data-slide aria-hidden="true"><img class="hero-image" src="{{ '/assets/images/southstack.jpg' | relative_url }}" alt="South Stack lighthouse from the sea"><div class="hero-content"><div class="eyebrow">Ynys Lawd o'r Môr</div><h1>Join us for a taster row!</h1><p>See Ynys Môn from the water and discover what coastal rowing feels like.</p><a class="button" href="{{ '/join/' | relative_url }}">Try two free sessions</a></div></article>
+  <div class="slider-controls"><div class="slider-dots" role="tablist" aria-label="Choose a slide"><button class="slider-dot is-active" type="button" data-slide-to="0" role="tab" aria-label="Show slide 1" aria-selected="true"></button><button class="slider-dot" type="button" data-slide-to="1" role="tab" aria-label="Show slide 2" aria-selected="false"></button><button class="slider-dot" type="button" data-slide-to="2" role="tab" aria-label="Show slide 3" aria-selected="false"></button></div></div>
 </section>
+<script src="{{ '/assets/js/slider.js' | relative_url }}" defer></script>
 <section class="intro">
   <div class="shell intro-grid">
     <div><div class="section-label">A club for everyone</div><h2>Sea air, good company, strong boats.</h2></div>
