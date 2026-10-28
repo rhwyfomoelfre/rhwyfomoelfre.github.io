@@ -1,0 +1,91 @@
+<header class="site-header">
+  <div class="utility-bar">
+    <div class="shell utility-inner">
+      <span>Coastal rowing from Traeth Bychan, Anglesey</span>
+      <div class="social-links" aria-label="Social links">
+        <a href="https://www.facebook.com/pg/RhwyfoMOELFRERowing" aria-label="Facebook">f</a>
+        <a href="https://www.instagram.com/clwb.rhwyfo.moelfre/?hl=en-gb" aria-label="Instagram">ig</a>
+      </div>
+    </div>
+  </div>
+  <div class="shell nav-wrap">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <img src="{{ '/assets/images/LogoMoelfreWeb.png' | relative_url }}" alt="Clwb Rhwyfo Moelfre">
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/about/' | relative_url }}">About us</a>
+      <details class="nav-dropdown">
+        <summary>Our boats <span class="dropdown-caret" aria-hidden="true"></span></summary>
+        <div class="dropdown-menu">
+          <a href="{{ '/boats/' | relative_url }}">Fleet overview</a>
+          <a href="{{ '/boats/mor-wennol/' | relative_url }}">Môr Wennol</a>
+          <a href="{{ '/boats/eirianell/' | relative_url }}">Eirianell</a>
+          <a href="{{ '/boats/joseph-rodgers/' | relative_url }}">Joseph Rodgers</a>
+          <a href="{{ '/boats/celtic-longboats/' | relative_url }}">Celtic longboats</a>
+          <a href="{{ '/boats/literace/' | relative_url }}">LiteRace singles</a>
+        </div>
+      </details>
+      <details class="nav-dropdown">
+        <summary>Safety <span class="dropdown-caret" aria-hidden="true"></span></summary>
+        <div class="dropdown-menu">
+          <a href="{{ '/safety/' | relative_url }}">Safety guidance</a>
+          <a href="{{ '/safety/equipment/' | relative_url }}">Safety equipment</a>
+          <a href="{{ '/incident-form/' | relative_url }}">Report an incident</a>
+        </div>
+      </details>
+      <details class="nav-dropdown">
+        <summary>Navigation <span class="dropdown-caret" aria-hidden="true"></span></summary>
+        <div class="dropdown-menu">
+          <a href="{{ '/navigation/' | relative_url }}">Navigation overview</a>
+          <a href="{{ '/navigation/introduction/' | relative_url }}">Introduction</a>
+          <a href="{{ '/navigation/planning-route/' | relative_url }}">Planning a route</a>
+          <a href="{{ '/navigation/tidal-streams/' | relative_url }}">Tidal streams</a>
+          <a href="{{ '/routes/trearddur-rhoscolyn/' | relative_url }}">Trearddur to Rhoscolyn</a>
+        </div>
+      </details>
+      <details class="nav-dropdown">
+        <summary>Training <span class="dropdown-caret" aria-hidden="true"></span></summary>
+        <div class="dropdown-menu">
+          <a href="{{ '/training/' | relative_url }}">Training overview</a>
+          <a href="{{ '/training/stroke-guide/' | relative_url }}">Stroke guide</a>
+        </div>
+      </details>
+      <details class="nav-dropdown">
+        <summary>Racing <span class="dropdown-caret" aria-hidden="true"></span></summary>
+        <div class="dropdown-menu">
+          <a href="{{ '/racing/' | relative_url }}">Racing overview</a>
+          <a href="{{ '/race-results/' | relative_url }}">Race results</a>
+          <a href="{{ '/league-race-entry/' | relative_url }}">League race entry</a>
+        </div>
+      </details>
+      <details class="nav-dropdown">
+        <summary>Club <span class="dropdown-caret" aria-hidden="true"></span></summary>
+        <div class="dropdown-menu">
+          <a href="{{ '/event-calendar/' | relative_url }}">Event calendar</a>
+          <a href="{{ '/club/constitution/' | relative_url }}">Constitution</a>
+        </div>
+      </details>
+      <a class="nav-cta" href="{{ '/join/' | relative_url }}">Join / taster row</a>
+    </nav>
+  </div>
+</header>
+<script>
+  const dropdowns = document.querySelectorAll('.nav-dropdown');
+
+  dropdowns.forEach((dropdown) => {
+    dropdown.addEventListener('toggle', () => {
+      if (!dropdown.open) return;
+      dropdowns.forEach((other) => {
+        if (other !== dropdown) other.open = false;
+      });
+    });
+  });
+
+  document.addEventListener('click', (event) => {
+    if (event.target.closest('.nav-dropdown')) return;
+    dropdowns.forEach((dropdown) => {
+      dropdown.open = false;
+    });
+  });
+</script>

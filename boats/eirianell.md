@@ -1,0 +1,7 @@
+---
+layout: default
+title: Eirianell
+permalink: /boats/eirianell/
+---
+<div class="page-hero"><div class="shell"><div class="eyebrow">Our boats</div><h1>Eirianell</h1></div></div>
+<div class="shell content-shell"><article class="prose"><img src="{{ '/assets/images/pentre-4_0.jpg' | relative_url }}" alt="Celtic cross at Pentre Eirianell"><p>Our new Celtic longboat “Eirianell” was delivered to the club in September 2020. She is so named in honour of the Morris brothers, the polymath champions of the Welsh language who lived just to the north of Moelfre.</p><p>There is a Celtic cross which was erected in memory of the Morris brothers in September 1910. The cross stands on land within the farmstead of Pentre Eirianell, former home to the four brothers who were renowned scholars, historians and surveyors in the early C18.</p><img src="{{ '/assets/images/Lewis.jpg' | relative_url }}" alt="Lewis Morris"><p><strong>Lewis Morris (1701–65)</strong> was a poet and scholar. Richard Morris (1703–79) was founder of the Cymmrodorion Society. William Morris (1705–63) was scholar of the Welsh language and botanist. John Morris (1706–40) was a sailor who died during an attack on Cartagena.</p></article><aside class="sidebar"><h2>Our fleet</h2><a href="{{ '/boats/mor-wennol/' | relative_url }}">Môr Wennol</a><a href="{{ '/boats/joseph-rodgers/' | relative_url }}">Joseph Rodgers</a></aside></div>

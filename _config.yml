@@ -1,0 +1,12 @@
+title: Clwb Rhwyfo Moelfre
+description: Coastal rowing on Anglesey
+url: ""
+baseurl: ""
+markdown: kramdown
+permalink: pretty
+exclude:
+  - MoelfreWS
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - _site
