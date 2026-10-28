@@ -86,6 +86,9 @@ h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; line-height: 1.12; color:
 .tide-animation { margin: 28px 0 34px; padding: 18px; background: var(--foam); border-left: 5px solid var(--sea); }
 .tide-animation img { display: block; width: 100%; max-height: none; margin: 0; }
 .tide-animation figcaption { margin-top: 10px; color: var(--muted); font-size: .84rem; }
+.training-figure { margin: 28px 0 34px; padding: 18px; background: var(--foam); border-left: 5px solid var(--sea); }
+.training-figure img { display: block; width: min(100%, 596px); max-height: none; margin: 0; }
+.training-figure figcaption { margin-top: 10px; color: var(--muted); font-size: .84rem; }
 .prose table { width: 100%; border-collapse: collapse; margin: 24px 0; font-size: .9rem; }
 .prose th, .prose td { padding: 10px; border-bottom: 1px solid var(--line); text-align: left; }
 .prose th { color: var(--deep); background: var(--foam); }
